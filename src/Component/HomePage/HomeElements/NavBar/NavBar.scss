@@ -1,0 +1,30 @@
+.navbar_header {
+    border-bottom: 1px solid lightgray;
+    padding: 5px 0px;
+    background: white;
+}
+.navbar-brand {
+    width: 120px;
+}
+.navbar-brand > img {
+    width: 100%;
+}
+.nav-item {
+    margin: 0px 5px;
+    display: flex;
+    align-items: center;
+}
+.nav-link {
+    color: black !important;
+    font-weight: 500;
+}
+.nav-link:hover {
+    color: gray !important;
+}
+.sign_up_btn {
+    background-image: linear-gradient(to right, #2bde8c, #7aef4d);
+    color: white !important;
+}
+.sign_up_btn:hover {
+    box-shadow: none !important;
+}

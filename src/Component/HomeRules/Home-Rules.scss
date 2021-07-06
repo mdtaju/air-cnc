@@ -1,0 +1,206 @@
+.home_rules_main_section {
+    margin: 50px 0px;
+}
+.breadcrumbs_item {
+    font-size: 1rem;
+    font-weight: 600;
+}
+@media(max-width: 768px) {
+    .breadcrumbs_item {
+    }
+}
+.breadcrumbs_details {
+    margin-top: 50px;
+    padding: 10px;
+}
+.breadcrumbs_details p {
+    font-weight: 600;
+    color: gray;
+}
+.breadcrumbs_subDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 0px;
+}
+.breadcrumbs_subDetails_subs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.breadcrumbs_subDetails_subs_1 {
+    padding: 5px 15px;
+    margin-right: 10px;
+    background: lightgray;
+    border-radius: 3px;
+    text-align: center;
+}
+.breadcrumbs_subDetails_subs_1 p {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.breadcrumbs_subDetails_subs_2 p {
+    margin: 0;
+    padding: 0;
+}
+.breadcrumbs_icon_section {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.breadcrumbs_icon_area {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    margin-right: 15px;
+}
+.breadcrumbs_icon_area img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.breadcrumbs_icon_section p {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.breadcrumbs_btn {
+    margin-top: 30px;
+}
+.title_main_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.title_img_main_area {
+    width: 50%;
+    height: fit-content;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.title_img_main_area img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 7px;
+}
+.title_main_area h4 {
+    margin-bottom: 20px;
+}
+.home_rules_back_btn {
+    margin-right: 30px !important;
+}
+.breadcrumbs_subDetails_traveling {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+} 
+.traveling_title_area {
+    padding: 0px 15px 0px 0px;
+}
+.traveling_text_area {
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+div.inputLabelAria {
+    padding: 0;
+}
+div.membership_details_container {
+    position: relative;
+}
+div.membership_nextBtn {
+    position: absolute;
+    right: 0;
+}
+div.creditCardMainContainer {
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+div.creditCartImgAria {
+    width: max-content;
+}
+div.creditCartImgAria img {
+    margin-left: 20px;
+}
+input[type="radio"] {
+    display: none;
+}
+label.radio__custom {
+    position: relative;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+label.radio__custom::before {
+    content: '';
+    border: 2px solid #fcd842;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: -8px 20px;
+    margin-left: 0;
+}
+label.radio__custom::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: white;
+    left: 6px;
+    top: 20px;
+    margin: -8px 20px;
+    margin-left: 0;
+    transition: all 0.4s;
+}
+input[type="radio"]:checked + label.radio__custom::after {
+    background: #fcd842;
+}
+p.input__information {
+    margin-left: 51px;
+    font-size: .9rem;
+    color: gray;
+}
+input.card__input {
+    padding: 20px;
+}
+div.cardNumberContainer {
+    margin-top: 50px;
+}
+label.cardInputLabel {
+    font-weight: 500;
+}
+div.cardNameContainer {
+    margin-top: 30px;
+}
+div.payPalMainContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+div.memberShipCreatedMainContainer {
+    margin: 80px 0px;
+}
+div.memberShipCreatedMainContainer h1 {
+    text-align: center;
+    color: #fcd842;
+}
+div.memberShipCreatedMainContainer h1 span {
+    color: black;
+}
+.details_pricing_main_aria {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,55 @@
+div.signUp_main_container {
+    max-width: 425px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 50px;
+}
+div.login_country_input_main_aria {
+    padding: 10px;
+    margin-top: 40px;
+    box-shadow: 0px 2px 5px 0px lightgray;
+    border-radius: 10px;
+}
+div.login_phone_input_main_aria {
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 5px 0px lightgray;
+    border-radius: 10px;
+}
+#loginPhoneInput {
+    border: none !important;
+    outline: none;
+    width: 90%;
+    padding: 10px 0px;
+}
+.signUp_p {
+    text-align: left;
+    color: gray;
+    margin-top: 20px;
+}
+.logIn_continue_btn {
+    width: 100%;
+    padding: 15px 0px !important;
+    margin-bottom: 40px !important;
+    color: white !important;
+    background-image: linear-gradient(to right, #2bde8c, #7aef4d);
+}
+.logIn_condition_p {
+    color: gray;
+    cursor: pointer;
+    width: fit-content;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+.logIn_condition_p b {
+    color: rgb(39, 39, 39);
+}
+.logIn_condition_p:hover {
+    text-decoration: underline;
+}
+.signUp_name_input {
+    margin-top: 40px !important;
+}
+.signUp_country_input {
+    margin-top: 20px !important;
+}
