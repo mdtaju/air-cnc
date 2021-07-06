@@ -12,6 +12,7 @@ This is a demo website. It's actually an airbnb clone. It has been created as a 
 #### Front-End
 - HTML
 - CSS
+- SASS
 - BOOTSTRAP
 - JAVASCRIPT
 - REACT
